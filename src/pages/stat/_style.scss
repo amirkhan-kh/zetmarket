@@ -1,0 +1,16 @@
+.stats{
+    .card-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr))!important;
+        align-items: center;
+        overflow: hidden;
+        padding: 12px 0px;
+        gap: 12px;
+        width: 100%;
+    }
+    .chart{
+        border-radius: 12px;
+        overflow: hidden;
+        background: #fff;
+    }
+}

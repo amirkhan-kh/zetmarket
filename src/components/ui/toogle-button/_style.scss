@@ -1,0 +1,29 @@
+.space{
+    
+    .radio{
+        width: 170px;
+        background: rgb(240,243,244);
+        border-radius: 25px;
+        height: 33px;
+        padding: 0px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .radioBtn{
+            border: none;
+            width: 78px;
+            border-radius: 30px;
+            font-size: 13px;
+            transition: 0.5s linear;
+            &.ant-radio-button-wrapper-checked {
+                background-color: black; // Checked holatda fon rangi
+                color: white; // Checked holatda matn rangi
+              }
+            
+            span{
+                margin: 0px 2px;
+            }
+           
+        }
+    }
+}

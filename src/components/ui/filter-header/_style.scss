@@ -1,0 +1,15 @@
+.filter{
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 6px 0px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    &_actions{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}

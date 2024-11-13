@@ -1,0 +1,12 @@
+main{
+    background: #B5C2CA;
+    min-height: 100vh;
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    .wrapper{
+        padding: 5px;
+        flex-grow: 1;
+        width: 100%;
+    }
+}
